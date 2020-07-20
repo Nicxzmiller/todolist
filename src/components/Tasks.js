@@ -11,7 +11,7 @@ export const Tasks = () =>{
 
     return(
         <div className="tasks" data-testid="tasks">
-            <h2 data-testId="project-name">{projectName}</h2>
+            <h2 data-testid="project-name">{projectName}</h2>
 
             <ul className="task__list">
                 {tasks && tasks.map(task => (
