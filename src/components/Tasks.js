@@ -10,7 +10,7 @@ export const Tasks = () =>{
     let projectName = '';
 
     return(
-        <div className="tasks" data-testId="tasks">
+        <div className="tasks" data-testid="tasks">
             <h2 data-testId="project-name">{projectName}</h2>
 
             <ul className="task__list">
